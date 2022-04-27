@@ -46,9 +46,6 @@ function repeater(str, options = defaultOptions) {
   return (arr.length === 1) ? arr[0] : arr.join(options.separator);
 }
 
-console.log(repeater(true, { repeatTimes: 3, separator: '??? ', addition: false, additionRepeatTimes: 2, additionSeparator: '!!!' }));
-
-//''truefalse!!!false??? truefalse!!!false??? truefalse!!!false'
 module.exports = {
   repeater
 };
