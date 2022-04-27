@@ -25,7 +25,7 @@ class DepthCalculator {
     return ++this.depth;
   }
 }
-console.log(new DepthCalculator().calculateDepth([1, [1, [1]], 5, [1, [[]]]]));
+
 module.exports = {
   DepthCalculator
 };
